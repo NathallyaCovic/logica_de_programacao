@@ -1,0 +1,132 @@
+Exercícios de JavaScript - Condicionais
+Exercício 1
+let idade = Number(prompt("Digite sua idade:"))
+if (idade >= 18) {
+  console.log("maior de idade")
+} else {
+  console.log("menor de idade")
+}
+Exercício 2
+let tempo = Number(prompt("Digite a hora:"))
+if (tempo >= 6 && tempo < 12) {
+  console.log("Bom dia")
+} else if (tempo >= 12 && tempo < 18) {
+  console.log("Boa tarde")
+} else {
+  console.log("Boa noite")
+}
+Exercício 3
+let idade = Number(prompt("Digite sua idade:"))
+if (idade >= 16) {
+  console.log("pode entrar")
+} else {
+  console.log("não pode entrar")
+}
+Exercício 4
+let numero1 = Number(prompt("Digite um número:"))
+let numero2 = Number(prompt("Digite outro número:"))
+if (numero1 > numero2) {
+  console.log("O primeiro número é maior:", numero1, ">", numero2)
+} else if (numero2 > numero1) {
+  console.log("O segundo número é maior:", numero2, ">", numero1)
+} else {
+  console.log("Os dois números são iguais:", numero1, "=", numero2)
+}
+Exercício 5
+let clima = Number(prompt("Digite a temperatura:"))
+if (clima < 22) {
+  console.log("frio")
+} else if (clima >= 22 && clima < 25) {
+  console.log("termico")
+} else {
+  console.log("Quente")
+}
+Exercício 6
+let palavra = prompt("digite a palavra")
+if (palavra == "felicidade") {
+  console.log("Palavra correta")
+} else {
+  console.log("Palavra incorreta")
+}
+Exercício 7
+let quantidadeDEmoedas = Number(prompt("Digite a quantidade de moedas:"))
+if (quantidadeDEmoedas < 10) {
+  console.log("Poucas moedas")
+} else if (quantidadeDEmoedas >= 10 && quantidadeDEmoedas < 20) {
+  console.log("Quantidade média")
+} else {
+  console.log("Muitas moedas")
+}
+Exercício 8
+let clima = Number(prompt("Digite a temperatura:"))
+if (clima < 20) {
+  console.log("frio")
+} else if (clima >= 20 && clima < 30) {
+  console.log("calor")
+} else {
+  console.log("muito quente")
+}
+Exercício 9
+let numero = prompt("digite seu numero")
+if (numero < 0) {
+  console.log("numero negativo")
+} else {
+  console.log("numero positivo")
+}
+Exercício 10
+let nota = prompt("digite sua nota")
+if (nota < 7) {
+  console.log("reprovado")
+} else {
+  console.log("aprovado")
+}
+Exercício 11
+let animal = prompt("Selecione um animal")
+if (animal === "cachorro") {
+  console.log("animal: ", animal)
+} else if (animal === "gato") {
+  console.log("animal: ", animal)
+} else if (animal === "Pássaro") {
+  console.log("animal: ", animal)
+} else {
+  console.log("Animal não listado")
+}
+Exercício 12
+let diaDaSemana = prompt("Selecione o dia da semana:")
+if (diaDaSemana === "segunda" || diaDaSemana === "terça" || diaDaSemana === "quarta" || diaDaSemana === "quinta" || diaDaSemana === "sexta") {
+  console.log("Dia útil")
+} else if (diaDaSemana === "sábado" || diaDaSemana === "domingo") {
+  console.log("Fim de semana")
+} else {
+  console.log("Dia inválido")
+}
+Exercício 13
+let experiencia = prompt("anos de experiencia")
+if (experiencia >= 2) {
+  console.log("Experiente")
+} else {
+  console.log("iniciante")
+}
+Exercício 14
+let numero = prompt("selecione um numero")
+if (numero >= 10 && numero <= 20) {
+  console.log("Dentro do intervalo")
+} else {
+  console.log("Fora do intervalo")
+}
+Exercício 15
+let idade = Number(prompt("Digite sua idade:"))
+if (idade >= 18) {
+  console.log("pode tirar carta")
+} else {
+  console.log("não pode tirar carta")
+}
+Exercício 16
+let numero = Number(prompt("Digite seu número"))
+if (numero < 0) {
+  console.log("negativo")
+} else if (numero === 0) {
+  console.log("zero")
+} else {
+  console.log("positivo")
+}
