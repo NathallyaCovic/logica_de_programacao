@@ -1,0 +1,66 @@
+const user = "admin0"; 
+const senh = "senha0"; 
+
+const user1 = "admin1"; 
+const senh1 = "senha1"; 
+
+const user2 = "admin2"; 
+const senh2 = "senha2"; 
+
+const user3 = "admin3"; 
+const senh3 = "senha3"; 
+
+const user4 = "admin4"; 
+const senh4 = "senha4"; 
+
+const user5 = "admin5"; 
+const senh5 = "senha5"; 
+
+const user6 = "admin6"; 
+const senh6 = "senha6"; 
+
+const user7 = "admin7"; 
+const senh7 = "senha7"; 
+
+const user8 = "admin8"; 
+const senh8 = "senha8"; 
+
+const user9 = "admin9"; 
+const senh9 = "senha9"; 
+
+const user0 = "admin10"; 
+const senh0 = "senha10"; 
+
+function verificar(usuario, senha) {
+  if (usuario === user && senha === senh) {
+    return "Entrou no sistema";
+  } else if (usuario === user1 && senha === senh1) {
+    return "Entrou no sistema";
+  } else if (usuario === user2 && senha === senh2) {
+    return "Entrou no sistema";
+  } else if (usuario === user3 && senha === senh3) {
+    return "Entrou no sistema";
+  } else if (usuario === user4 && senha === senh4) {
+    return "Entrou no sistema";
+  } else if (usuario === user5 && senha === senh5) {
+    return "Entrou no sistema";
+  } else if (usuario === user6 && senha === senh6) {
+    return "Entrou no sistema";
+  } else if (usuario === user7 && senha === senh7) {
+    return "Entrou no sistema";
+  } else if (usuario === user8 && senha === senh8) {
+    return "Entrou no sistema";
+  } else if (usuario === user9 && senha === senh9) {
+    return "Entrou no sistema";
+  } else if (usuario === user0 && senha === senh0) {
+    return "Entrou no sistema";
+  } else {
+    return "Usuário ou senha incorretos";
+  }
+}
+
+let usuario = prompt("Digite o nome de usuário:")
+let senha = prompt("Digite a senha:")
+
+let resultado = verificar(usuario, senha)
+console.log(resultado)
