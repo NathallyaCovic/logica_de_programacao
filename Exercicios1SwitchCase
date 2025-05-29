@@ -1,0 +1,249 @@
+Exercício 1
+let idioma = prompt("Escolha o idioma (Português = pt, Inglês = en, Espanhol = es, Francês = fr, Alemão = al, Italiano = it)")
+
+switch (idioma) {
+  case "pt":
+    console.log("Olá!")
+    break
+  case "en":
+    console.log("Hello!")
+    break
+  case "es":
+    console.log("¡Hola!")
+    break
+  case "fr":
+    console.log("Bonjour!")
+    break
+  case "al":
+    console.log("Hallo!")
+    break
+  case "it":
+    console.log("Ciao!")
+    break
+  default:
+    console.log("Idioma não reconhecido.")
+}
+Exercício 2
+let dia = prompt("Digite um número de 1 a 7")
+
+switch (dia) {
+  case "1":
+    console.log("Domingo")
+    break
+  case "2":
+    console.log("Segunda-feira")
+    break
+  case "3":
+    console.log("Terça-feira")
+    break
+  case "4":
+    console.log("Quarta-feira")
+    break
+  case "5":
+    console.log("Quinta-feira")
+    break
+  case "6":
+    console.log("Sexta-feira")
+    break
+  case "7":
+    console.log("Sábado")
+    break
+  default:
+    console.log("Número inválido.")
+}
+Exercício 3
+let transporte = prompt("Escolha um transporte (1-Carro, 2-Bicicleta, 3-Ônibus)")
+
+switch (transporte) {
+  case "1":
+    console.log("Você escolheu Carro")
+    break
+  case "2":
+    console.log("Você escolheu Bicicleta")
+    break
+  case "3":
+    console.log("Você escolheu Ônibus")
+    break
+  default:
+    console.log("Transporte inválido.")
+}
+Exercício 4
+let urgencia = prompt("Digite o nível de urgência (1-Baixa, 2-Média, 3-Alta)")
+
+switch (urgencia) {
+  case "1":
+    console.log("Urgência Baixa")
+    break
+  case "2":
+    console.log("Urgência Média")
+    break
+  case "3":
+    console.log("Urgência Alta")
+    break
+  default:
+    console.log("Nível inválido.")
+}
+Exercício 5
+let categoria = prompt("Digite a categoria (compacto, suv, caminhão)")
+
+switch (categoria) {
+  case "compacto":
+    console.log("Veículo compacto selecionado.")
+    break
+  case "suv":
+    console.log("SUV selecionado.")
+    break
+  case "caminhão":
+    console.log("Caminhão selecionado.")
+    break
+  default:
+    console.log("Categoria inválida.")
+}
+Exercício 6
+let horas = prompt("Digite o número de horas estacionadas")
+
+switch (true) {
+  case (horas <= 1):
+    console.log("Tarifa: R$ 5,00")
+    break
+  case (horas <= 4):
+    console.log("Tarifa: R$ 10,00")
+    break
+  case (horas > 4):
+    console.log("Tarifa: R$ 20,00")
+    break
+  default:
+    console.log("Valor inválido.")
+}
+Exercício 7
+let dificuldade = prompt("Escolha a dificuldade (1, 2 ou 3)")
+
+switch (dificuldade) {
+  case "1":
+    console.log("Você escolheu Fácil")
+    break
+  case "2":
+    console.log("Você escolheu Médio")
+    break
+  case "3":
+    console.log("Você escolheu Difícil")
+    break
+  default:
+    console.log("Opção inválida.")
+}
+Exercício 8
+let servico = prompt("Digite o serviço (yoga, musculação, personal)")
+
+switch (servico) {
+  case "yoga":
+    console.log("Aula de Yoga selecionada. começa na terça")
+    break
+  case "musculação":
+    console.log("Musculação selecionada. começa na quarta")
+    break
+  case "personal":
+    console.log("Personal Trainer selecionado. começa na sexta")
+    break
+  default:
+    console.log("Serviço inválido.")
+}
+Exercício 9
+let ingresso = prompt("Digite a categoria (1- estudante, 2 - meia, 3 - inteira)")
+
+switch (ingresso) {
+  case "1":
+    console.log("Preço: R$ 10,00")
+    break
+  case "2":
+    console.log("Preço: R$ 15,00")
+    break
+  case "3":
+    console.log("Preço: R$ 30,00")
+    break
+  default:
+    console.log("Categoria inválida.")
+}
+Exercício 10
+let idade = prompt("Digite a idade")
+
+switch (true) {
+  case (idade < 18):
+    console.log("Exercício fácil recomendado.")
+    break
+  case (idade <= 25):
+    console.log("Exercício intermediário recomendado.")
+    break
+  case (idade <= 40):
+    console.log("Exercício pesado.")
+    break
+  case (idade > 40):
+    console.log("Exercício leve recomendado.")
+    break
+  default:
+    console.log("Idade inválida.")
+}
+Exercício 11
+let genero = prompt("Digite o gênero musical (rock, samba, clássico)")
+
+switch (genero) {
+  case "rock":
+    console.log("Instrumento: Guitarra")
+    break
+  case "samba":
+    console.log("Instrumento: Pandeiro")
+    break
+  case "clássico":
+    console.log("Instrumento: Violino")
+    break
+  default:
+    console.log("Gênero não reconhecido.")
+}
+Exercício 12
+let area = prompt("Digite a área \n1- front-end \n2- back-end\n3- mobile\n:")
+
+switch (area) {
+  case "1":
+    console.log("Curso: HTML, CSS e JavaScript")
+    break
+  case "2":
+    console.log("Curso: bancos de dados")
+    break
+  case "3":
+    console.log("Curso: React Native ou Flutter")
+    break
+  default:
+    console.log("Área inválida.")
+}
+Exercício 13
+let idade = prompt("Digite a idade do atleta")
+
+switch (true) {
+  case (idade < 12):
+    console.log("Nível: Iniciante")
+    break
+  case (idade <= 18):
+    console.log("Nível: Intermediário")
+    break
+  case (idade > 18):
+    console.log("Nível: Avançado")
+    break
+  default:
+    console.log("Idade inválida.")
+}
+Exercício 14
+let categoria = prompt("Digite a categoria\n1- básico \n2- intermediário\n3- avançado\n:")
+
+switch (categoria) {
+  case "1":
+    console.log("Exercícios com operações simples.")
+    break
+  case "2":
+    console.log("Exercícios com frações e equações.")
+    break
+  case "3":
+    console.log("Exercícios com álgebra e cálculo.")
+    break
+  default:
+    console.log("Categoria inválida.")
+}
+
