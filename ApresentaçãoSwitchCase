@@ -1,0 +1,208 @@
+https://drive.google.com/file/d/1f8qWv3yChTz2PNP2IGGyIpJ63Ueq7qIh/view?usp=classroom_web&authuser=0
+
+
+Exemplos com Switch Case - JavaScript
+Exemplo 1
+
+console.log("===CARDÁPIO DE SORVETES===")
+console.log("1- Sorvete de Chocolate")
+console.log("2- Sorvete de Baunilha")
+console.log("3- Sorvete de Morango")
+console.log("4- Sorvete de Flocos")
+console.log("5- Sorvete Napolitano")
+console.log("6- Sorvete de Cookies & Cream")
+console.log("7- Sorvete de Menta com Chocolate")
+console.log("8- Sorvete de Doce de Leite")
+console.log("9- Sorvete de Pistache")
+console.log("10- Sorvete de Coco")
+console.log("11- Sorvete de Limão")
+console.log("12- Sorvete de Maracujá")
+console.log("13- Sorvete de Tutti Frutti")
+console.log("14- Sorvete de Café")
+console.log("15- Sorvete de Nutella")
+console.log("16- Sorvete de Açaí")
+console.log("17- Sorvete de Melancia")
+console.log("18- Sorvete de Churros")
+console.log("19- Sorvete de Queijo com Goiabada")
+console.log("20- Sorvete de Uva")
+
+let numero = Number(prompt("Escolha seu sabor de sorvete(de um a vinte) "))
+
+switch (numero) {
+case 1:
+console.log("1- Sorvete de Chocolate")
+break
+case 2:
+console.log("2- Sorvete de Baunilha")
+break
+case 3:
+console.log("3- Sorvete de Morango")
+break
+case 4:
+console.log("4- Sorvete de Flocos")
+break
+case 5:
+console.log("5- Sorvete Napolitano")
+break
+case 6:
+console.log("6- Sorvete de Cookies & Creme")
+break
+case 7:
+console.log("7- Sorvete de Menta com Chocolate")
+break
+case 8:
+console.log("8- Sorvete de Doce de Leite")
+break
+case 9:
+console.log("9- Sorvete de Pistache")
+break
+case 10:
+console.log("10- Sorvete de Coco")
+break
+case 11:
+console.log("11- Sorvete de Limão")
+break
+case 12:
+console.log("12- Sorvete de Maracujá")
+break
+case 13:
+console.log("13- Sorvete de Tutti Frutti")
+break
+case 14:
+console.log("14- Sorvete de Café")
+break
+case 15:
+console.log("15- Sorvete de Nutella")
+break
+case 16:
+console.log("16- Sorvete de Açaí")
+break
+case 17:
+console.log("17- Sorvete de Melancia")
+break
+case 18:
+console.log("18- Sorvete de Churros")
+break
+case 19:
+console.log("19- Sorvete de Queijo com Goiabada")
+break
+case 20:
+console.log("20- Sorvete de Uva")
+break
+default:
+console.log("Número inválido! Escolha um entre 1 e 20.")
+}
+
+Exemplo 2 – Nathalya
+
+let escolha = prompt("1 - X-salada \n2 - X-cheddar \n3 - Hambúrguer \n4 - X-bacon \n5 - X-egg \n6 - X-tudo \n selecione seu pedido: ")
+let preco = 0
+
+switch (escolha) {
+case "X-salada":
+case "1":
+preco = 20.00
+break
+case "X-cheddar":
+case "2":
+preco = 18.00
+break
+case "Hambúrguer":
+case "3":
+preco = 15.00
+break
+case "X-bacon":
+case "4":
+preco = 23.00
+break
+case "X-egg":
+case "5":
+preco = 19.00
+break
+case "X-tudo":
+case "6":
+preco = 28.00
+break
+default:
+console.log("Erro ao definir o preço do lanche.")
+break
+}
+
+let npmemudado = 0
+
+switch (escolha) {
+case "1":
+case "X-salada":
+npmemudado = "X-salada"
+break
+case "2":
+case "X-cheddar":
+npmemudado = "X-cheddar"
+break
+case "3":
+case "Hambúrguer":
+npmemudado = "Hambúrguer"
+break
+case "4":
+case "X-bacon":
+npmemudado = "X-bacon"
+break
+case "5":
+case "X-egg":
+npmemudado = "X-egg"
+break
+case "6":
+case "X-tudo":
+npmemudado = "X-tudo"
+break
+default:
+console.log("Erro ao definir o nome do lanche.")
+break
+}
+
+console.log("Seu lanche escolhido foi:", npmemudado)
+console.log("Preço: R$ " + preco + ",00")
+
+Exemplo 3 – Murilo
+
+let dia = prompt("qual o dia da semana?\n")
+switch (dia){
+case "segunda-feira":
+case "terça-feira":
+case "quarta-feira":
+case "quinta-feira":
+case "sexta-feira":
+console.log("dia útil!")
+break
+case "sábado":
+case "domingo":
+console.log("fim de semana!")
+break
+default:
+console.log("este não é um dia válido!")
+}
+
+Exemplo 4 – Erick
+
+let posicao = prompt("Escolha as posições que queira saber entre armador, ala-armador, ala, ala-pivô e pivô: ")
+
+switch (posicao) {
+case "armador":
+console.log("Armador: responsável por organizar as jogadas e distribuir a bola.")
+break
+case "ala-armador":
+console.log("Ala-armador: versátil e ajuda na armação das jogadas.")
+break
+case "ala":
+console.log("Ala: atua nas laterais, infiltra no garrafão e arremessa de média/longa distância.")
+break
+case "ala-pivô":
+console.log("Ala-pivô: joga mais próximo do garrafão, forte na defesa, rebotes e auxilia o pivô")
+break
+case "pivô":
+console.log("Pivô: o maior jogador da equipe, domina os rebotes, é bom defensor e joga dentro do garrafão.")
+break
+default:
+console.log("Posição desconhecida. Tente: armador, ala-armador, ala, ala-pivô ou pivô.")
+}
+
